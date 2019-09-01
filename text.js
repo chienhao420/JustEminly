@@ -2,7 +2,8 @@ var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
         var a = new Array
-        ("<3糖糖", "可爱", "啾啾", "mua", "软软的", "要亲亲", "棒棒的", "咬我", "嘿嘿", "甜甜的", "好辣", "调皮鬼", "小恶魔"); var $i="$("<span/">").text(a[a_idx]);
+        ("<3糖糖", "可爱", "啾啾", "MUA", "软软的", "要亲亲", "棒棒的", "咬我", "嘿嘿", "甜甜的", "好辣", "调皮鬼", "小恶魔");
+        var $i = $("<span/>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
         y = e.pageY;
@@ -29,4 +30,4 @@ jQuery(document).ready(function($) {
 
 function delay() {
     $(".buryit").removeAttr("onclick");
-}</3糖糖",>
+}
